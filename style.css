@@ -18,6 +18,19 @@ html {
 
 #main {
   width: 100%;
+  /*   .sidebar-rgt{
+      width: 100%;
+      height: 100%;
+
+      img{
+
+
+        width: 75%;
+        right: -50%;
+
+
+      }
+    } */
 }
 #main .main-bg {
   height: 100vh;
@@ -229,15 +242,6 @@ html {
 #main .section3 .right img {
   width: 100%;
 }
-#main .sidebar-rgt {
-  width: 100%;
-  height: 100%;
-}
-#main .sidebar-rgt img {
-  position: absolute;
-  width: 75%;
-  right: -50%;
-}
 #main .section4 {
   display: flex;
   align-items: center;
@@ -264,5 +268,31 @@ html {
 }
 #main .section4 .rgt p {
   font-size: 1.3rem;
+  opacity: 0.7;
+}
+#main .section5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+#main .section5 .rgt, #main .section5 .lft {
+  width: 40%;
+}
+#main .section5 .rgt img {
+  width: 100%;
+}
+#main .section5 .lft h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0.8;
+}
+#main .section5 .lft h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+#main .section5 .lft p {
+  font-size: 1.4rem;
   opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */
