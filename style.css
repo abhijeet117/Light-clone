@@ -408,4 +408,63 @@ html {
 #main .section8 button i {
   font-size: 1rem;
   font-weight: 400;
+}
+#main .section9 {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+#main .section9 .lft {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 2rem;
+}
+#main .section9 .lft .first {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#main .section9 .lft .first img {
+  width: 2.5rem;
+}
+#main .section9 .lft .first h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+#main .section9 .lft .second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main .section9 .lft .second i {
+  font-size: 1.8rem;
+}
+#main .section9 .rgt {
+  display: flex;
+  padding: 4rem;
+  gap: 6rem;
+  justify-content: space-between;
+}
+#main .section9 .rgt .frst, #main .section9 .rgt .scond, #main .section9 .rgt .third {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+#main .section9 .rgt .frst h4, #main .section9 .rgt .scond h4, #main .section9 .rgt .third h4 {
+  color: #515357;
+}
+#main .section9 .rgt .frst p, #main .section9 .rgt .scond p, #main .section9 .rgt .third p {
+  color: #7B7D82;
+}
+#main .section10 {
+  padding: 4rem;
+}
+#main .section10 hr {
+  opacity: 0.4;
+}
+#main .section10 p {
+  padding: 1rem;
+  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */
